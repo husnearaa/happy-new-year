@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+.font-style{
+
+        font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+/* header styles */
 
 .banner{
     
@@ -46,7 +54,7 @@ margin-top: 18px;
 
 }
 
-
+/* first part of main section styles */
 .main-container{
     display: flex;
     align-items: center;
@@ -79,6 +87,8 @@ li{
     list-style: none;
 }
 
+
+/* my plan section style */
 .my-plan-title{
     color: #151414;
 text-align: center;
@@ -123,3 +133,97 @@ font-size: 25px;
 font-weight: 500;
 }
 
+/* last part of style */
+
+.final{
+    background-image: url("../images/watch.png"), url("../images/gradient1.png");
+    background-blend-mode: overlay;  
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 80px;
+    border-radius: 1px;
+}
+
+.finat-part{
+    margin: 40px;
+    padding-top: 30px;
+}
+
+.final-title{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.btn-pic{
+border-radius: 5px;
+background: #FFF;
+text-align: center;
+font-size: 15px;
+font-weight: 600;
+background-color: white;
+border-color: white;
+padding: 10px 20px;
+
+}
+
+/* footer styles */
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 480px;
+}
+
+.footer-content-left{
+    text-align: left;
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-icon-content{
+    display: flex;
+    gap: 20px;
+    width: 20px;
+    margin-top: 20px;
+}
+
+.footer-sub-title{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.foot-form{
+    display: block;
+}
+
+.footer-email{
+    border: 1px solid #FFF;
+    background: black;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.submit{
+border-radius: 5px;
+background: #005FAC;
+color: white;
+width: 100px;
+height: 40px;
+flex-shrink: 0;
+}
