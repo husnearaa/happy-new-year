@@ -45,3 +45,36 @@ padding: 15px 25px;
 margin-top: 18px;
 
 }
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.second-title{
+
+color: #151414;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+
+.second-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+
+}
+
+li{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+}
