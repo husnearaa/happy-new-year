@@ -78,3 +78,48 @@ li{
     line-height: 26px;
     list-style: none;
 }
+
+.my-plan-title{
+    color: #151414;
+text-align: center;
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 700;
+
+}
+
+.my-plan-section{
+    margin-top: 190px;
+    align-items: center;
+}
+
+.parent-brunch{
+    display: flex;
+    justify-content: center;
+
+}
+
+.child-brunch{
+    margin: 50px;
+    text-align: center;
+}
+
+.img-icon{
+    margin-bottom: 20px;
+}
+
+.plan-title{
+    color:  #151414;
+    text-align: center;
+    font-size: 30px;  
+    font-weight: 700;
+}
+
+.plan-description{
+    color: #737272;
+text-align: center;
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 500;
+}
+
